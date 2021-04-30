@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
 
 	
-	@State var data = RootObjectData(title: "testing")
+	@State var data = RootObjectData(title: "testing", userId: 0, id: 0, completed: false)
 	
 	func getData() {
 		let urlString = "https://jsonplaceholder.typicode.com/todos/1"
@@ -35,6 +35,9 @@ struct ContentView: View {
     var body: some View {
 		VStack(spacing: 10){
 			Text("\(data.title)").accessibility(identifier: "titleString")
+			Text("UserID: \(data.userId)")
+			Text("ID: \(data.id)")
+			Text("Completed: \(data.completed.description)")
 			Button("Refresh data") {getData()}.accessibility(identifier: "refreshButton")
 		}
     }

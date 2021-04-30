@@ -9,7 +9,7 @@ import Foundation
 
 struct RootObjectData: Decodable {
 	var title: String
-//	var userID: Int
-//	var id: Int
-//	var completed: Bool
+	var userId: Int
+	var id: Int
+	var completed: Bool
 }
