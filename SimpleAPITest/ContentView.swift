@@ -34,8 +34,8 @@ struct ContentView: View {
 	
     var body: some View {
 		VStack(spacing: 10){
-			Text("\(data.title)")
-			Button("Refresh data") {getData()}
+			Text("\(data.title)").accessibility(identifier: "titleString")
+			Button("Refresh data") {getData()}.accessibility(identifier: "refreshButton")
 		}
     }
 

@@ -14,6 +14,7 @@
 		2863582D263C3F9200B1FD52 /* SimpleAPITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2863582C263C3F9200B1FD52 /* SimpleAPITestTests.swift */; };
 		28635838263C3F9200B1FD52 /* SimpleAPITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28635837263C3F9200B1FD52 /* SimpleAPITestUITests.swift */; };
 		28635849263C415A00B1FD52 /* JSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28635848263C415A00B1FD52 /* JSONData.swift */; };
+		2863584E263C4B4000B1FD52 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2863584D263C4B4000B1FD52 /* MainPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		28635837263C3F9200B1FD52 /* SimpleAPITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAPITestUITests.swift; sourceTree = "<group>"; };
 		28635839263C3F9200B1FD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28635848263C415A00B1FD52 /* JSONData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONData.swift; sourceTree = "<group>"; };
+		2863584D263C4B4000B1FD52 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				28635837263C3F9200B1FD52 /* SimpleAPITestUITests.swift */,
+				2863584D263C4B4000B1FD52 /* MainPage.swift */,
 				28635839263C3F9200B1FD52 /* Info.plist */,
 			);
 			path = SimpleAPITestUITests;
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28635838263C3F9200B1FD52 /* SimpleAPITestUITests.swift in Sources */,
+				2863584E263C4B4000B1FD52 /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
