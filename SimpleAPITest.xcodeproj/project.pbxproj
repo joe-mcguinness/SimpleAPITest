@@ -13,6 +13,7 @@
 		28635822263C3F9200B1FD52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28635821263C3F9200B1FD52 /* Preview Assets.xcassets */; };
 		2863582D263C3F9200B1FD52 /* SimpleAPITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2863582C263C3F9200B1FD52 /* SimpleAPITestTests.swift */; };
 		28635838263C3F9200B1FD52 /* SimpleAPITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28635837263C3F9200B1FD52 /* SimpleAPITestUITests.swift */; };
+		28635849263C415A00B1FD52 /* JSONData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28635848263C415A00B1FD52 /* JSONData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		28635833263C3F9200B1FD52 /* SimpleAPITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAPITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28635837263C3F9200B1FD52 /* SimpleAPITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAPITestUITests.swift; sourceTree = "<group>"; };
 		28635839263C3F9200B1FD52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28635848263C415A00B1FD52 /* JSONData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				2863581A263C3F8000B1FD52 /* SimpleAPITestApp.swift */,
 				2863581C263C3F8000B1FD52 /* ContentView.swift */,
+				28635848263C415A00B1FD52 /* JSONData.swift */,
 				2863581E263C3F9200B1FD52 /* Assets.xcassets */,
 				28635823263C3F9200B1FD52 /* Info.plist */,
 				28635820263C3F9200B1FD52 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				2863581D263C3F8000B1FD52 /* ContentView.swift in Sources */,
 				2863581B263C3F8000B1FD52 /* SimpleAPITestApp.swift in Sources */,
+				28635849263C415A00B1FD52 /* JSONData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
